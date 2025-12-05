@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alleen voor Josephine</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 2em;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 1em;
+    }
+    button {
+      background-color: #004aad;
+      color: white;
+      border: none;
+      padding: 0.8em 2em;
+      font-size: 1.1em;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 2em;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #00337a;
+    }
+    .iframe-container {
+      position: relative;
+      width: 100%;
+      max-width: 700px;
+      height: 0;
+      padding-top: 70.9459%;
+      box-shadow: 0 2px 8px rgba(63,69,81,0.16);
+      margin: 0 auto;
+      border-radius: 8px;
+      overflow: hidden;
+      will-change: transform;
+    }
+    iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      border: none;
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Alleen voor Josephine</h1>
+  <button onclick="window.open('https://www.canva.com/design/DAG6rlXxFhY/O4hjBL2NJY8-_CCMHj6tPw/view', '_blank')">Bekijk mijn onderwerp</button>
+
+  <div class="iframe-container">
+    <iframe 
+      loading="lazy" 
+      src="https://www.canva.com/design/DAG6rlXxFhY/O4hjBL2NJY8-_CCMHj6tPw/view?embed" 
+      allowfullscreen="allowfullscreen" 
+      allow="fullscreen">
+    </iframe>
+  </div>
+</body>
+</html>
